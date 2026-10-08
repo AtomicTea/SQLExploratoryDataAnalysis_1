@@ -1,4 +1,4 @@
-
+/*
 -- =====================================================================================================
 -- 			Initial Database Exploration
 Purpose:
@@ -8,7 +8,7 @@ Purpose:
 Table Used:
     - INFORMATION_SCHEMA.TABLES
     - INFORMATION_SCHEMA.COLUMNS
--- =====================================================================================================		
+-- =====================================================================================================	*/	
 
 -- Exploring all objects in the Database
 SELECT * FROM INFORMATION_SCHEMA.TABLES
