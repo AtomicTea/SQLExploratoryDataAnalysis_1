@@ -28,7 +28,7 @@ This project demonstrates how structured data can be prepared and explored to su
 
 ## Data Sources
 
-The analysis uses the Gold layer of a MySQL data warehouse, which contains business-ready views built from cleaned and transformed data in the Silver layer.
+The analysis uses the Gold layer of a MySQL data warehouse project I completed previously, which contains business-ready views built from cleaned and transformed data in the Silver layer.
 
 The primary datasets are:
 
@@ -68,7 +68,7 @@ Together, these datasets provide a foundation for exploring customer, product, a
 
 ## Key SQL Skills Demonstrated
 
-* Aggregate functions: 'COUNT()`, `SUM()', 'MIN()', and 'MAX()'
+* Aggregate functions: 'COUNT()', 'SUM()', 'MIN()', and 'MAX()'
 * Grouping and filtering: 'GROUP BY', 'ORDER BY', 'WHERE', and 'HAVING'
 * Joining related datasets using LEFT JOIN, UNION ALL
 * Subqueries and derived tables
@@ -83,6 +83,24 @@ This project demonstrates how SQL can be used to investigate a business dataset,
 
 The exploratory analysis also establishes a starting point for more focused analytics, including customer segmentation, product performance, and changes in sales over time.
 
+## Key Findings
+>```text
+> Sales Coverage
+>The sales dataset covers approximately 4 years, from 12/29/2010 through 01/28/2014.
+>
+> Customer Base
+>The customer base includes 18484 unique customers and the product catalog contains 295 products.
+>Most customers are located in 6 countries - USA, Australia, Canada, Germany, United Kingdom, and France.
+>The customer population ranges from 40 to 110 years old.
+>
+>Product catalog
+>There are 295 distinct products in the catalog with an approximate average price of $486.
+>
+>Customer Purchasing Behavior
+>Overwhelmingly, the most popular category of product sales are mountain bikes.
+>Total sales overall equal $29,356,250, encompassing 27659 orders.
+>```
+
 ## Next Steps
 
 The next stage of the portfolio will build on this foundation through more targeted customer and product reporting, including:
@@ -95,13 +113,15 @@ The next stage of the portfolio will build on this foundation through more targe
 
 These analyses will move beyond describing the dataset toward evaluating business performance and identifying actionable patterns.
 
+
 ## Repository Structure
 
-```text
-exploratory-data-analysis/
-├── scripts/
-│   └── exploratory_data_analysis.sql
-└── README.md
-```
+> [!NOTE]
+>```text
+>exploratory-data-analysis/
+>├── scripts/
+>│   └── exploratory_data_analysis.sql
+>└── README.md
+>```
 
-*Adjust the folder and file names to match your actual repository.*
+
