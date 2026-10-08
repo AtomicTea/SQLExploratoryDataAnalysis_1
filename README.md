@@ -26,9 +26,10 @@ This project demonstrates how structured data can be prepared and explored to su
 * **SQL techniques** — aggregate functions, joins, subqueries, Common Table Expressions (CTEs), window functions, date functions, and conditional logic
 
 
-## Data Sources
+## Data Sources and Project Context
 
-The analysis uses the Gold layer of a <a href="https://github.com/AtomicTea/SQl-data-warehouse-project-1" target="new">MySQL data warehouse project</a> I completed previously, which contains business-ready views built from cleaned and transformed data in the Silver layer.
+This project builds on the data warehouse developed in my 
+ <a href="https://github.com/AtomicTea/SQl-data-warehouse-project-1" target="new">End-to-End MySQL Data Warehouse project</a>. The warehouse provides the Bronze, Silver, and Gold layers used as the foundation for this exploratory analysis. This project focuses specifically on using SQL to explore the business-ready Gold layer and identify patterns across customers, products, and sales.
 
 The primary datasets are:
 
