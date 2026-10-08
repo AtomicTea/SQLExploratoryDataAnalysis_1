@@ -28,7 +28,7 @@ This project demonstrates how structured data can be prepared and explored to su
 
 ## Data Sources
 
-The analysis uses the Gold layer of a MySQL data warehouse project I completed previously, which contains business-ready views built from cleaned and transformed data in the Silver layer.
+The analysis uses the Gold layer of a <a href="https://github.com/AtomicTea/SQl-data-warehouse-project-1" target="new">MySQL data warehouse project</a> I completed previously, which contains business-ready views built from cleaned and transformed data in the Silver layer.
 
 The primary datasets are:
 
