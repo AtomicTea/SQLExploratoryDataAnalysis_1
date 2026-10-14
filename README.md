@@ -115,13 +115,16 @@ The next stage of the portfolio will build on this foundation through more targe
 These analyses will move beyond describing the dataset toward evaluating business performance and identifying actionable patterns.
 
 
-## Repository Structure
+## Repository Structure Example
 
 > [!NOTE]
 >```text
 >exploratory-data-analysis/
 >├── scripts/
 >│   └── exploratory_data_analysis.sql
+>|   └── 01_database_exploration.sql
+>|   └── 02_dimensions_exploration.sql
+>    ...
 >└── README.md
 >```
 
