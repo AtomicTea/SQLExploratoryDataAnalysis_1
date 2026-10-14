@@ -85,34 +85,30 @@ This project demonstrates how SQL can be used to investigate a business dataset,
 The exploratory analysis also establishes a starting point for more focused analytics, including customer segmentation, product performance, and changes in sales over time.
 
 ## Key Findings
->```text
-> Sales Coverage
->The sales dataset covers approximately 4 years, from 12/29/2010 through 01/28/2014.
->
-> Customer Base
->The customer base includes 18484 unique customers and the product catalog contains 295 products.
->Most customers are located in 6 countries - USA, Australia, Canada, Germany, United Kingdom, and France.
->The customer population ranges from 40 to 110 years old.
->
->Product catalog
->There are 295 distinct products in the catalog with an approximate average price of $486.
->
->Customer Purchasing Behavior
->Overwhelmingly, the most popular category of product sales are mountain bikes.
->Total sales overall equal $29,356,250, encompassing 27659 orders.
->```
 
-## Next Steps
+### Sales Coverage
+The sales dataset covers approximately 4 years, from 12/29/2010 through 01/28/2014.
 
-The next stage of the portfolio will build on this foundation through more targeted customer and product reporting, including:
+ ### Customer Base
+The customer base includes 18484 unique customers and the product catalog contains 295 products.
+Most customers are located in 6 countries - USA, Australia, Canada, Germany, United Kingdom, and France.
+The customer population ranges from 40 to 110 years old.
 
+### Product catalog
+There are 295 distinct products in the catalog with an approximate average price of $486.
+
+### Customer Purchasing Behavior
+Overwhelmingly, the most popular category of product sales are mountain bikes.
+Total sales overall equal $29,356,250, encompassing 27659 orders.
+
+### Other findings
 * Changes-over-time analysis
 * Cumulative sales analysis
 * Product and customer performance analysis
 * Part-to-whole analysis
 * Customer segmentation
 
-These analyses will move beyond describing the dataset toward evaluating business performance and identifying actionable patterns.
+These analyses will move beyond describing the dataset toward evaluating business performance and identifying actionable patterns. I plan to show these findings in an upcoming iteration of this data project, but the analysis are included here for review.
 
 
 ## Repository Structure Example
