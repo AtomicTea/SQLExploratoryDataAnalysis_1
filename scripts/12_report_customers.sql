@@ -22,7 +22,7 @@ Highlights:
 */
 
 -- =============================================================================
--- Create Report: gold.report_customers
+-- Create Report: dwport1_gold.report_customers
 -- =============================================================================
 
 -- Drop existing view if it already exists
