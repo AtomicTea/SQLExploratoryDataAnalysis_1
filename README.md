@@ -113,15 +113,15 @@ These analyses will move beyond describing the dataset toward evaluating busines
 
 ## Repository Structure Example
 
-> [!NOTE]
->```text
->exploratory-data-analysis/
->├── scripts/
->│   └── exploratory_data_analysis.sql
->|   └── 01_database_exploration.sql
->|   └── 02_dimensions_exploration.sql
->    ...
->└── README.md
->```
+[!NOTE]
+
+exploratory-data-analysis/
+├── scripts/
+│   └── exploratory_data_analysis.sql
+|   └── 01_database_exploration.sql
+|   └── 02_dimensions_exploration.sql
+    ...
+└── README.md
+
 
 
