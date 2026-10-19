@@ -9,6 +9,7 @@ Purpose:
     - Useful for growth analysis or identifying long-term trends.
 
 SQL Functions Used:
+ 	- Date Functions: DATE_FORMAT()
     - Window Functions: SUM() OVER(), AVG() OVER()
 ===============================================================================
 */
@@ -19,7 +20,7 @@ SELECT
 	order_date,
 	total_sales,
 	SUM(total_sales) OVER (ORDER BY order_date) AS running_total_sales,
-	AVG(avg_price) OVER (ORDER BY order_date) AS moving_average_price
+	ROUND(AVG(avg_price) OVER (ORDER BY order_date),2) AS moving_average_price
 FROM
 (
     SELECT 
